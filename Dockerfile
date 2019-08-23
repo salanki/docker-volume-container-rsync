@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER TANABE Ken-ichi <nabeken@tknetworks.org>
+FROM debian:buster
+MAINTAINER Peter Salanki <peter@salanki.st>
 
 RUN apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends rsync && \
